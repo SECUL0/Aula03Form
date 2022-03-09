@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <h2>Buscador Google</h2>
+    <form action="http://www.google.com./search" method="get">
+        <label>Google: <input type="search" name="q"></label>
+        <input type="submit" value="Search...">
+    </form>
+    <br>
+    <br>
+    <h2>Buscador Bing</h2>
+
+    <form action="http://www.bing.com/search" method="get">
+        <label>Bing: <input type="search" name="q"></label>
+        <input type="submit" value="Search...">
+    </form>
+</body>
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <h2>Buscador Google</h2>
+    <form method="get">
+        <fieldset>
+            <legend>Consulta</legend>
+            <label>Parametro de Busca: <select name="q">​
+                <optgroup label="Swedish Cars">​
+                  <option value="volvo">Volvo</option>​
+                  <option value="saab">Saab</option>​
+                </optgroup>​
+            
+                <optgroup label="German Cars">​
+                  <option value="mercedes">Mercedes</option>​
+                  <option value="audi">Audi</option>​
+                </optgroup>​
+            
+              </select>​
+            <button type="submit" formaction="http://www.google.com/search">Google</button>
+            <button type="submit" formaction="http://www.youtube.com/search">youtube</button>
+            
+            
+        </fieldset>
+    </form>
+    <br>
+    <br>
+    <h2>Buscador Bing</h2>
+
+    <form action="http://www.bing.com/search" method="get">
+        <fieldset>
+            <legend>Consulta Bing</legend>
+            <label>Bing: <input type="search" name="q"></label>
+            <input type="submit" value="Search...">
+        </fieldset>
+    </form>
+</body>
